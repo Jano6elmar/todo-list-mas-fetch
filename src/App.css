@@ -1,0 +1,16 @@
+input{
+  display: flex;
+  width: 25%;
+  margin:20px auto;
+  border-bottom: 1px solid ;
+  /* font-size: 20px; */
+}
+.list-group-item .fa-times{
+  display: none;
+  cursor:pointer;
+}
+.list-group-item:hover .fa-times{
+display: block;
+float:right;
+}
+
