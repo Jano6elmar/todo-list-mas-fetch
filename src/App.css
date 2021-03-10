@@ -1,9 +1,16 @@
+
 input{
   display: flex;
   width: 25%;
   margin:20px auto;
   border-bottom: 1px solid ;
   /* font-size: 20px; */
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
 }
 .list-group-item .fa-times{
   display: none;
